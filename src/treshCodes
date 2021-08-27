@@ -1,0 +1,55 @@
+// const FruitsILike = [
+
+//   {
+//     id: 1,
+//     rating: 4.7,
+//     name: "Orange",
+//     url: "https://media.tegna-media.com/assets/CCT/images/f196d162-2869-4066-b0c7-fe26196362b0/f196d162-2869-4066-b0c7-fe26196362b0_750x422.jpg"
+//   },
+//   {
+//     id: 2,
+//     rating: 5,
+//     name: "Pineapple",
+//     url: "https://img3.exportersindia.com/product_images/bc-full/dir_104/3115447/pineapple-1204679.jpg"
+//   },
+//   {
+//     id: 3,
+//     rating: 4.5,
+//     name: "Kiwi",
+//     url: "https://static.libertyprim.com/files/familles/kiwi-large.jpg?1569271790"
+//   },
+// ];
+
+// function PrintFruits({ name, url, rating }) {
+//   return (
+//     <div>
+//       <h2> I like {name} </h2>
+//       <h4> {rating}/5 </h4>
+//       <img src={url} alt="X" />
+//     </div>
+//   )
+// }
+// // proptypes는 해당 함수가 얻고자하는 arg의 타입과 내가 이 함수에 넣은 prop의 타입이 같은지 확인해준다.
+// PrintFruits.propTypes = {
+//   name: PropTypes.string.isRequired,
+//   url: PropTypes.string.isRequired,
+//   rating: PropTypes.number.isRequired
+// };
+
+// function renderFruits(obj) {
+//   return (
+//     <PrintFruits name={obj.name} url={obj.url} rating={obj.rating} key={obj.id} />
+//   )
+// }
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <h1>This is APP h1</h1>
+
+//       {FruitsILike.map(renderFruits)}
+//     </div>
+//   );
+// }
+
+// export default App;
